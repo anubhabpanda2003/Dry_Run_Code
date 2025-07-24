@@ -1,0 +1,41 @@
+.recursion-tree {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.app.dark .recursion-tree {
+    background-color: #3a3a3a;
+}
+
+.tree-node {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.app.dark .tree-node {
+    background-color: #2d2d2d;
+    border-color: #555;
+}
+
+.node-header {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.node-content {
+    display: flex;
+    gap: 20px;
+}
+
+.node-content>div {
+    flex: 1;
+}
+
+.child-node {
+    margin-top: 10px;
+}

@@ -1,0 +1,52 @@
+.variable-timeline {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.variable-track {
+    margin-bottom: 20px;
+    border-left: 2px solid #4CAF50;
+    padding-left: 10px;
+}
+
+.variable-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.var-name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.var-type {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.value-changes {
+    margin-left: 20px;
+}
+
+.value-change {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.step {
+    font-weight: bold;
+    margin-right: 8px;
+    color: #4CAF50;
+}
+
+.value {
+    font-family: monospace;
+}

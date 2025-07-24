@@ -1,0 +1,31 @@
+.control-flow-graph {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.graph-container {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.flow-details {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.loops-section,
+.conditionals-section {
+    margin-top: 15px;
+}
+
+.loop-item,
+.conditional-item {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

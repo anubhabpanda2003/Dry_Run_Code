@@ -1,0 +1,33 @@
+.recursion-tree-visualizer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tree-container {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+.node-details {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.details-content {
+    margin-top: 10px;
+}
+
+.recursion-node circle {
+    fill: #4CAF50;
+    stroke: #388E3C;
+}
+
+.recursion-node text {
+    font-size: 12px;
+    fill: white;
+}

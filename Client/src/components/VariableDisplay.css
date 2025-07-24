@@ -1,0 +1,25 @@
+.variable-display table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.variable-display th,
+.variable-display td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.variable-display th {
+    background-color: #f2f2f2;
+}
+
+.app.dark .variable-display th {
+    background-color: #3a3a3a;
+}
+
+.app.dark .variable-display th,
+.app.dark .variable-display td {
+    border-color: #555;
+}
