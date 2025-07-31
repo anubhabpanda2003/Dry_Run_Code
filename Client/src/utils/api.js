@@ -13,6 +13,7 @@ const API_BASE_URL = 'http://localhost:5001/api';
  * @param {Object} options - Fetch options (method, headers, body, etc.)
  * @returns {Promise<Object>} The parsed JSON response
  */
+
 const apiRequest = async (endpoint, options = {}) => {
   const defaultHeaders = {
     'Content-Type': 'application/json',
